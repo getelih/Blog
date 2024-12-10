@@ -18,8 +18,8 @@
 </head>
 
 <body>
-    <?php include 'views/partials/themetoggle.php'; ?>
-    <?php include 'views/partials/nav.php'; ?>
+    <?php include __DIR__. '/themetoggle.php'; ?>
+    <?php include __DIR__. '/nav.php'; ?>
 
     <main class="container">
         <!-- Content goes here -->
