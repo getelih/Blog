@@ -1,5 +1,10 @@
 services:
   web:
-    image: httpd
+  build:
+    context:
+      dockerfiles: web.dockerfile
     ports:
       - 6969:80
+
+      volumes:
+      - ./html:/usr/local/apahe2/htdocs
